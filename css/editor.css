@@ -1,0 +1,60 @@
+.t1>img{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+.lec>.t1{
+    width: 100%;
+    max-width: none;
+    position: relative;
+}
+.save{
+    position: fixed;
+    background-image: linear-gradient(-90deg,rgb(0, 169, 0) 50%,white 50%,white 100% );
+    border: solid 2px rgb(0, 169, 0);
+    padding: 10px;
+    border-radius: 15px;
+    bottom:2.5%
+
+}
+textarea {
+    text-align: left !important;
+
+}
+.save>svg{
+    background-image: none;
+}
+.save:hover svg{
+    fill: black;
+}
+.red{
+    background-image: linear-gradient(-90deg,red 50%,white 50%,white 100% );
+    border: solid 2px red;
+}
+.container{
+    width: 100%;
+}
+.t1>.delete{
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top:5px;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.738);
+    padding: 5px;
+    border-radius: 5px;
+}
+.t1 textarea{
+    white-space: pre;
+}
+.mark{
+    align-items: center;
+}
+
+.t3>.btn:last-child{
+    grid-column: 1/4;
+}
+.t1 .text{
+    white-space:normal;
+}

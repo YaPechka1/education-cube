@@ -1,0 +1,25 @@
+.t1>* {
+    text-align: center;
+}
+
+.container {
+    /* flex-wrap: wrap; */
+}
+
+.lec {
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.lec>.t1 {
+    max-width: 50%;
+}
+
+.btn.t1{
+    border-radius: 10px;
+
+}
+a>.btn{
+    width: 100%;
+}

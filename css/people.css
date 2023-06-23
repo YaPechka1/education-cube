@@ -1,0 +1,13 @@
+.t3{
+    /* justify-content: flex-start; */
+    align-items: center;
+}
+.t3>.btn{
+    justify-self: flex-end;
+}
+.t3>span{
+    justify-self: flex-start;
+}
+.box{
+    border-radius: 5px;
+}

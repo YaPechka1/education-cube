@@ -1,0 +1,14 @@
+.t2>.btn{
+    grid-column: auto;
+}
+.t2{
+    gap:5px
+}
+.green{
+    background-image: linear-gradient(-90deg,#12162b 50%,white 50%,white 100% );
+    border: solid 2px #12162b;
+}
+.container{
+    width: 75%;
+    margin: auto;
+}
